@@ -25,8 +25,6 @@ A simple attendance tracking system built as a project during my 2nd year, 1st s
 
 ## 📷 Screenshots
 
-## 📷 Screenshot
-
 ![App Screenshot](assets/ss1.png)
 ![App Screenshot](assets/ss2.png)
 ![App Screenshot](assets/ss3.png)
