@@ -1,0 +1,96 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header-bar {
+    width: 100%;
+    background-color: #a22626;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.container {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 500px;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-title {
+    font-size: 24px;
+    color: #a22626;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    padding-right: 20px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    resize: none;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.submit-button {
+    background-color: #a22626;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 48%;
+}
+
+.submit-button:hover {
+    background-color: #811d1d;
+}
+
+.subject-name {
+    display: inline-block; /* Ensures it aligns nicely */
+    padding: 5px 10px;
+    background-color: #f9f9f9; /* Light background */
+    border: 1px solid #ddd; /* Optional border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 1.5rem; /* Adjust font size */
+    color: #333; /* Text color */
+}
